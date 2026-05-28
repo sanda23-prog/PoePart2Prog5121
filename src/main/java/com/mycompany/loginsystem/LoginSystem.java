@@ -41,7 +41,7 @@ public class LoginSystem {
         return Pattern.matches(regex, password);
     }
     
-    //Checks if phone number is valid South African format
+    //This Checks if phone number is valid South African format
     //Format: +27 followed by 9 digits (like +27123456789)
      
     public static boolean checkCellPhoneNumber(String number) {
@@ -277,7 +277,7 @@ public class LoginSystem {
             System.out.println("Invalid number. Must start with +27 and have 9 digits. Example: +27123456789");
         }
  
-        // === LOGIN PHASE ===
+        // LOGIN PHASE 
         System.out.println("\nCHAT APP LOGIN \n");
         String loginUser;
         String loginPass;
